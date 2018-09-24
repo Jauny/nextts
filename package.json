@@ -1,0 +1,12 @@
+{
+  "name": "bump",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jonathan Pepin <jypepin@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
