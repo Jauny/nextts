@@ -1,11 +1,10 @@
 import React from "react"
 
-import Nav from '../components/nav'
+import Layout from '../components/layout'
+import GetTheApp from '../components/get-the-app'
 
-export default () => {
-  return (
-    <div>
-      <Nav />
-    </div>
-  )
-}
+export default () => (
+  <Layout title='About us'>
+    <GetTheApp />
+  </Layout>
+)

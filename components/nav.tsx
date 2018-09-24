@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function Nav() {
+export default () => {
   return (
     <div className="nav">
       <div className="nav-item nav-logo">
@@ -19,7 +19,7 @@ export default function Nav() {
       <style global jsx>{`
         body {
           margin: 0;
-          font-family: PingFangSC;
+          font-family: 'PingFangSC';
         }
       `}</style>
       <style jsx>{`
