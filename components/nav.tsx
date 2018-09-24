@@ -7,8 +7,7 @@ export default () => {
         <img
           className="bumpLogoWhite"
           src="/static/bump-logo-white.png"
-          srcSet="/static/bump-logo-white@2x.png 2x, /static/bump-logo-white@3x.png 3x">
-        </img>
+          srcSet="/static/bump-logo-white@2x.png 2x, /static/bump-logo-white@3x.png 3x" />
       </div>
       <div className="nav-item nav-links">
         <div className="nav-links-container">
