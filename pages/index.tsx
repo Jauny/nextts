@@ -1,16 +1,11 @@
 import React from "react"
 
-export interface IProps {
-  name: string
-  age: number
-}
+import Nav from '../components/nav'
 
-export default (props: IProps) => {
+export default () => {
   return (
-    <div>Welcome to next.jsxx! {props.age}</div>
+    <div>
+      <Nav />
+    </div>
   )
-}
-
-class Tamere extends React.Component<IProps, object> {
-
 }
