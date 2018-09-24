@@ -19,7 +19,7 @@ export default () => {
       <style global jsx>{`
         body {
           margin: 0;
-          font-family: 'PingFangSC';
+          font-family: 'Varela';
         }
       `}</style>
       <style jsx>{`
@@ -44,24 +44,24 @@ export default () => {
         }
         .nav-links-container {
           border-bottom: solid 1px #aaa;
-          padding-bottom: 4px;
+          padding-bottom: 6px;
         }
         .nav-link {
-          font-size: 16px;
-          padding: 0 8px;
+          font-size: 14px;
+          padding: 0 12px;
           position: relative;
         }
         .nav-link-active:after {
           content: '';
           position: absolute;
           left: 0;
-          bottom: -6px;
+          bottom: -9px;
           height: 3px;
           background-color: black;
           width: 100%;
         }
         .nav-link:not(:last-child) {
-          margin-right: 12px;
+          margin-right: 8px;
         }
         .bumpLogoWhite {
           width: 105px;
