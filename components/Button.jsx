@@ -1,13 +1,11 @@
-import Button from '../components/Button'
+import React from 'react'
 
-export default () => {
+export default props => {
   return (<div>
-    <div>Welcome to <span>next.js!</span></div>
-    <Button>salut</Button>
+    <div className='btn'>{props.children}<span>salut</span></div>
     <style jsx>{`
       div {
         color: red;
-
         span {
           color: blue;
         }
