@@ -1,7 +1,7 @@
 import React from "react"
 
-import Layout from '../components/layout'
-import GetTheApp from '../components/get-the-app'
+import Layout from '../src/components/layout'
+import GetTheApp from '../src/components/get-the-app'
 
 export default () => (
   <Layout title='About us'>
