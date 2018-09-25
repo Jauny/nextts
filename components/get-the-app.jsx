@@ -1,7 +1,7 @@
 // import 'react-phone-number-input/style.css'
 // import PhoneInput, { formatPhoneNumber } from 'react-phone-number-input'
 
-import Button from './_button'
+import Button from './button'
 
 export default class GetTheApp extends React.Component {
   state = {
