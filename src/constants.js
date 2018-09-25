@@ -1,3 +1,12 @@
+export const NAVIGATION_ITEMS = [
+  {
+    label: 'Download'
+  },
+  {
+    label: 'Shop'
+  }
+]
+
 export const FOOTER_LINKS = [
   {
     label: 'Download',
