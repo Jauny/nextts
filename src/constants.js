@@ -1,9 +1,11 @@
 export const NAVIGATION_ITEMS = [
   {
-    label: 'Download'
+    label: 'Download',
+    url: '/'
   },
   {
-    label: 'Shop'
+    label: 'Shop',
+    url: '/shop'
   }
 ]
 
