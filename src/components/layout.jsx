@@ -14,6 +14,10 @@ export default({children}) => (
         margin: 0;
         font-family: 'Varela';
       }
+      a {
+        color: black;
+        text-decoration: none;
+      }
     `}</style>
   </div>
 )
