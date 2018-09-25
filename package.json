@@ -4,10 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "next",
     "build": "next build",
-    "start": "next start",
+    "dev": "next",
     "lint": "eslint .",
+    "reboot": "rm -rf node_modules && yarn",
+    "start": "next start",
     "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "dependencies": {
