@@ -13,12 +13,6 @@ export default () => {
           <span className="nav-link">Shop</span>
         </div>
       </div>
-      <style global jsx>{`
-        body {
-          margin: 0;
-          font-family: 'Varela';
-        }
-      `}</style>
       <style jsx>{`
         .nav {
           -webkit-box-shadow: 0px 5px 5px -3px rgba(208, 208, 208, 0.58);

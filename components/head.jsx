@@ -7,7 +7,7 @@ export default ({title = 'Bump'}) => (
       <meta charSet='utf-8' />
       <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       <link href="https://fonts.googleapis.com/css?family=Varela" rel="stylesheet" />
-      <link rel="stylesheet" href="/static/css/react-phone-number-input/style.css" />
+      {/* <link rel="stylesheet" href="/static/css/react-phone-number-input/style.css" /> */}
     </Head>
   </div>
 )
