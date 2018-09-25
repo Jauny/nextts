@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import classNames from 'classnames'
+import Link from 'next/link'
 
 import {setNavigation} from '../actions/allActions'
 import {NAVIGATION_ITEMS} from '../constants'
@@ -27,7 +28,9 @@ class Nav extends Component {
                   <span
                     className={classNames('nav-link', {'nav-link-active': this.props.navItemIndex === index})}
                     onClick={() => this.handleSetNavigation(index)}>
+                    <Link href={item.url}>
                       {item.label}
+                    </Link>
                   </span>
                 )
               })
