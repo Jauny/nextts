@@ -1,3 +1,8 @@
 export default {
-  navItemIndex: 0
+  base: {
+    navItemIndex: 0
+  },
+  products: {
+    allProducts: []
+  }
 }

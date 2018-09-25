@@ -91,7 +91,7 @@ class Nav extends Component {
 }
 
 function mapStateToProps(state) {
-  const {navItemIndex} = state
+  const {base: {navItemIndex}} = state
   return {navItemIndex}
 }
 

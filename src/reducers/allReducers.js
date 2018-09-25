@@ -1,14 +1,12 @@
 import {actionTypes} from '../actions/allActions'
+import {combineReducers} from 'redux';
 
 import initialState from './initialState';
 
-export const reducer = (state = initialState, action) => {
-  switch (action.type) {
-    case actionTypes.SET_NAVIGATION:
-      console.log('SET_NAVIGATION');
-      return Object.assign({}, state, {
-        navItemIndex: action.navItemIndex
-      })
-    default: return state
-  }
-}
+import {base} from './baseReducer';
+import {products} from './productsReducer';
+
+export default combineReducers({
+  base,
+  products
+});
